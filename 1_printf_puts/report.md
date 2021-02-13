@@ -18,13 +18,17 @@ src/.
 
 ```
 
-//Exp_01 Program to Display My Favourite Poem. 20-11-2020
+/*
+Exp_01 
+Program to Display My Favourite Poem. 
+20-11-2020
+*/
 //Coded by: Ashish Sehgal ME-A1 2030015
 
 #include <stdio.h> //Header File
                    
 int main (void) //Declaration of Main Function
-{
+{       
         printf("\n\
          ME-A1\n\
          Roll No. 2030015\n\
@@ -55,7 +59,7 @@ int main (void) //Declaration of Main Function
          But name me not with the defeated,\n\
          For tomorrow- again, I begin.\
         "); //Poem
-
+         
         printf("\n\
          ____________________________________________\n\n\
         "); 
@@ -109,13 +113,11 @@ xmake run
 
 ### Known Bugs and/or Errors:
 
-List all the known limitations / bugs and / or errors of your program.
-
-After extensively testing your program, you should be aware of (nearly) every issue it has. How does your program handle bad input? How does your program handle edge cases? This section is a space for full-disclosure; what's wrong with your program?
+No Bugs and/or Errors found.
 
 ### Lessons Learned:
 
-1. Use of printf(); puts(); and display of  formatting.
+1. Use of printf(); puts(); and display of formatting.
 1. I would make relative patterns and ammend the display formatting (if feedback will be given).
-1. Revise printf(); which is commented as "Poem".
+1. Revise printf(); which is commented as “Poem”.
 1. Intendation so that program can be easily readable.

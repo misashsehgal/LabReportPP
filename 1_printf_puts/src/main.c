@@ -1,10 +1,14 @@
-//Exp_01 Program to Display My Favourite Poem. 20-11-2020
+/*
+Exp_01 
+Program to Display My Favourite Poem. 
+20-11-2020
+*/
 //Coded by: Ashish Sehgal ME-A1 2030015
 
 #include <stdio.h> //Header File
                    
 int main (void) //Declaration of Main Function
-{
+{       
         printf("\n\
          ME-A1\n\
          Roll No. 2030015\n\
@@ -35,7 +39,7 @@ int main (void) //Declaration of Main Function
          But name me not with the defeated,\n\
          For tomorrow- again, I begin.\
         "); //Poem
-
+         
         printf("\n\
          ____________________________________________\n\n\
         "); 

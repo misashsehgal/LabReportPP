@@ -4,20 +4,20 @@
 
 by
 
-## Hardeep Singh Rai
-### Class Roll No.: 2014xyx
-### Branch: Civil Engineering
-### Batch: 2020-23
+## Ashish Sehgal
+### Class Roll No.: 2030015
+### Branch: Mechanical Engineering
+### Batch: 2020-24
 ### Session: Odd Semester 2020-21
 
-## Submitted to: Prof. H. S. Rai
+## Submitted to: Prof. Hanit Karwal
 
 ---
 
 # Index
 
 1. [Login to code.gndec.ac.in](codeServer/report.html)
-1. [Making and executing a program](SSA/report.html)
-1. [Practical 1](Ex101/report.html)
-1. [To find factorial of a given number](factorial/report.html)
+1. [Making and executing a program](m_e/report.html)
+1. [Program to Display My Favourite Poem.](1_printf_puts/report.html)
+1. [Program to Display Different Data Types.](2_data_types/report.html)
 1. [Add more]()
