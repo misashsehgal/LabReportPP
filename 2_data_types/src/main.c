@@ -1,6 +1,6 @@
 /*
 Exp_02 
-Program to Display Different Data Types. 
+Program to Use Different Data Types. 
 20-11-2020
 */
 //Coded by: Ashish Sehgal ME-A1 2030015
@@ -16,13 +16,13 @@ int main (void) //Declaration of Main Function
         "); //coder's introduction
         
 	printf("\n\
-	 ________________________________________\
+	 ____________________________________\
         ");
 	printf("\n\
-	 Program to Display Different Data Types.\
+	 Program to Use Different Data Types.\
         "); //Program's name
 	printf("\n\
-	 ________________________________________\n\
+	 ____________________________________\n\
         ");
 
 	int   a=7,\
@@ -38,22 +38,25 @@ int main (void) //Declaration of Main Function
              z='S'; //Declaration and Assignation(3)
 
 	printf("\n\
-         Display Integers:         %i, %i, %i, %i\n\
+         Display Integers:         %i\n\
+				   %i\n\
+				   %i\n\
+				   %i\n\
 	",a, b, c, d); //Printing(1)
 
         printf("\n\
-	 Display Floating Values : %.1f\n\
+	 Display Floating Values:  %.1f\n\
 				   %.2f\n\
 				   %.3f\n\
 				   %.4f\n\
 	",A, B, C, D); //Printing(2)
 
         printf("\n\
-	 Display characters :      %c%c%c\n\
+	 Display characters:       %c%c%c\n\
 	",x, y, z); //Printing(3)
 
         printf("\n\
-	 ________________________________________\n\n\
+	 ____________________________________\n\n\
         ");
 
         return 0; //Termination

@@ -1,15 +1,14 @@
 [Home of Lab Report](../lab.html)
 
-# Program Ex 01: Program to Display Different Data Types.
+# Program Ex 01: Program to Use Different Data Types.
 
 ## Source file/s
 
 ```
 src/.
-├── main.c
-└── main.c~
+└── main.c
 
-0 directories, 2 files
+0 directories, 1 file
 ```
 
 ---
@@ -21,7 +20,7 @@ src/.
 
 /*
 Exp_02 
-Program to Display Different Data Types. 
+Program to Use Different Data Types. 
 20-11-2020
 */
 //Coded by: Ashish Sehgal ME-A1 2030015
@@ -37,13 +36,13 @@ int main (void) //Declaration of Main Function
         "); //coder's introduction
         
 	printf("\n\
-	 ________________________________________\
+	 ____________________________________\
         ");
 	printf("\n\
-	 Program to Display Different Data Types.\
+	 Program to Use Different Data Types.\
         "); //Program's name
 	printf("\n\
-	 ________________________________________\n\
+	 ____________________________________\n\
         ");
 
 	int   a=7,\
@@ -59,22 +58,25 @@ int main (void) //Declaration of Main Function
              z='S'; //Declaration and Assignation(3)
 
 	printf("\n\
-         Display Integers:         %i, %i, %i, %i\n\
+         Display Integers:         %i\n\
+				   %i\n\
+				   %i\n\
+				   %i\n\
 	",a, b, c, d); //Printing(1)
 
         printf("\n\
-	 Display Floating Values : %.1f\n\
+	 Display Floating Values:  %.1f\n\
 				   %.2f\n\
 				   %.3f\n\
 				   %.4f\n\
 	",A, B, C, D); //Printing(2)
 
         printf("\n\
-	 Display characters :      %c%c%c\n\
+	 Display characters:       %c%c%c\n\
 	",x, y, z); //Printing(3)
 
         printf("\n\
-	 ________________________________________\n\n\
+	 ____________________________________\n\n\
         ");
 
         return 0; //Termination
@@ -105,20 +107,23 @@ xmake run
          Roll No. 2030015
          Ashish Sehgal
         
-	 ________________________________________        
-	 Program to Display Different Data Types.        
-	 ________________________________________
+	 ____________________________________        
+	 Program to Use Different Data Types.        
+	 ____________________________________
         
-         Display Integers:         7, 9, 11, 13
+         Display Integers:         7
+				   9
+				   11
+				   13
 	
-	 Display Floating Values : 7.9
+	 Display Floating Values:  7.9
 				   9.11
 				   11.137
 				   13.7911
 	
-	 Display characters :      PPS
+	 Display characters:       PPS
 	
-	 ________________________________________
+	 ____________________________________
 
         
 ```
@@ -129,7 +134,7 @@ No Bugs and/or Errors found.
 
 ### Lessons Learned:
 
-1. Declaration and assignation of different data types.
-1. I would try to first display different data types by their categories (i.e Primary, Userdefined and Derived), then their related data types as their subs. 
-1. Revise Declaration and assignation of different data types first then prinf() to print different data types.
-1. Use of different format specifiers with specified integral and decimal places.    
+1. Use of format specifiers.       
+1. Display of different data types by their categories (i.e. Primary, Userdefined and Derived), then their related data types as their subs.
+1. First, Declare and assign the values then prinf() to print these values using different data types.
+1. Use of different format specifiers with specified integral and decimal places.
