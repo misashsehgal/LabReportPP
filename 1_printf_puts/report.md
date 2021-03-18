@@ -1,14 +1,15 @@
 [Home of Lab Report](../lab.html)
 
-# Program Ex 01: Program to Display My Favourite Poem.
+# Program Ex 01: Change it
 
 ## Source file/s
 
 ```
 src/.
-└── main.c
+├── main.c
+└── main.c~
 
-0 directories, 1 file
+0 directories, 2 files
 ```
 
 ---
@@ -20,35 +21,47 @@ src/.
 
 /*
 Exp_01 
-Program to Display My Favourite Poem. 
+Program to Display My Favourite Poem.(Learning C).
 20-11-2020
 */
 //Coded by: Ashish Sehgal ME-A1 2030015
 
-#include <stdio.h> //Header File
+//Header File
+#include <stdio.h> 
                    
-int main (void) //Declaration of Main Function
-{       
+//Declaration of Main Function
+int main (void) 
+{
+        printf("\n\
+         ____________________________________________\n\
+        ");
+
+        //coder's introduction
         printf("\n\
          ME-A1\n\
          Roll No. 2030015\n\
-         Ashish Sehgal\n\
-        "); //coder's introduction
-         
+         Ashish Sehgal\
+        "); 
+        
+        //Program's name 
         puts("\n\
          _____________________________________\
         ");
         puts("\
          Program to Display My Favourite Poem.\
-        "); //Program's name
+        "); 
         puts("\
          _____________________________________\
         "); 
+
         
+
+        //Title
         printf("\n\
                     THE UNSUBDUED\n\
-        "); //Title
+        ");         
         
+        //Poem
         printf("\n\
          I have hoped, I have planed, I have striven,\n\
          To the will I have added the deed;\n\
@@ -57,15 +70,17 @@ int main (void) //Declaration of Main Function
          I am old, I am bent, I am cheated\n\
          Of all that Youth urged me to win;\n\
          But name me not with the defeated,\n\
-         For tomorrow- again, I begin.\
-        "); //Poem
+         For tomorrow-again, I begin.\
+        "); 
          
         printf("\n\
          ____________________________________________\n\n\
         "); 
         
-        return 0; //Termination            
+        //Termination
+        return 0;             
 }
+
 
 ```
 
@@ -87,10 +102,11 @@ xmake
 xmake run
 
 
+         ____________________________________________
+        
          ME-A1
          Roll No. 2030015
-         Ashish Sehgal
-        
+         Ashish Sehgal        
          _____________________________________        
          Program to Display My Favourite Poem.        
          _____________________________________        
@@ -105,7 +121,7 @@ xmake run
          I am old, I am bent, I am cheated
          Of all that Youth urged me to win;
          But name me not with the defeated,
-         For tomorrow- again, I begin.        
+         For tomorrow-again, I begin.        
          ____________________________________________
 
         
@@ -113,11 +129,13 @@ xmake run
 
 ### Known Bugs and/or Errors:
 
-No Bugs and/or Errors found.
+List all the known limitations / bugs and / or errors of your program.
+
+After extensively testing your program, you should be aware of (nearly) every issue it has. How does your program handle bad input? How does your program handle edge cases? This section is a space for full-disclosure; what's wrong with your program?
 
 ### Lessons Learned:
 
-1. Use of printf(); puts(); and display of formatting.
-1. I would make relative patterns and ammend the display formatting (if feedback will be given).
-1. Revise printf(); which is commented as “Poem”.
-1. Intendation so that program can be easily readable.
+1. What went well
+1. What you would do differently next time
+1. How the exercise might be revised to make it clearer/more satisfying
+1. What the faculty members might have done differently to promote learning

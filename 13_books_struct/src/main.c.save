@@ -1,0 +1,31 @@
+#include <stdio.h> //header file
+
+int main(void) //declaration of main function
+{
+
+{
+printf("\n  ME-A1\n  Roll No. 2030015\n  Ashish Sehgal\n"); //Coder's Introduction
+}
+
+struct book      //declaration of data types in required structure                   
+{
+char bookname[20];
+char authname[30];              
+char pubname[30]; 
+int price;
+};                                        
+
+struct book b1={"Programming in ANSI C", "E. Balagurusamy", "Mc Graw Hill Education", 320}; //structure of book1(1)
+struct book b2={"A Textbook of Engineering Mathematics", "N.P.Bali", "Laxmi Publications", 460}; //structure of book2(2)
+struct book b3={"Effective Tecnical Communication", "M.Ashraf Rizvi", "Mc Graw Hill Education", 380, b3.bookname, b3.authname, b3.pubname, b3.price}; //structure of book3(3)
+
+printf("Name: %s, Author: %s, publication: %s, Price: %d", b1.bookname, b1.authname, b1.pubname, b1.price); //printing(1)
+printf("Name: %s, Author: %s, publication: %s, Price: %d", b2.bookname, b2.authname, b2.pubname, b2.price); //printing(2)
+printf("Name: %s, Author: %s, publication: %s, Price: %d", b3.bookname, b3.authname, b3.pubname, b3.price); //printing(3)
+
+
+
+
+
+return 0;
+}

@@ -1,14 +1,15 @@
 [Home of Lab Report](../lab.html)
 
-# Program Ex 01: Program to Use Different Data Types.
+# Program Ex 01: Change it
 
 ## Source file/s
 
 ```
 src/.
-└── main.c
+├── main.c
+└── main.c~
 
-0 directories, 1 file
+0 directories, 2 files
 ```
 
 ---
@@ -19,69 +20,89 @@ src/.
 ```
 
 /*
-Exp_02 
+Exp_02  
 Program to Use Different Data Types. 
 20-11-2020
-*/
-//Coded by: Ashish Sehgal ME-A1 2030015
-
-#include <stdio.h> //Header File
-
-int main (void) //Declaration of Main Function 
-{
+*/      
+//Coded by: Ashish Sehgal 2030015 ME - A1
+         
+//Header File
+#include <stdio.h> 
+         
+//Declaration of Main Function
+int main (void)  
+{       
+        printf("\n\
+         ________________________________________\n\
+        ");
+        
+        //coder's introduction
         printf("\n\
          ME-A1\n\
          Roll No. 2030015\n\
-         Ashish Sehgal\n\
-        "); //coder's introduction
+         Ashish Sehgal\
+        "); 
         
-	printf("\n\
-	 ____________________________________\
+        //Program's name
+        printf("\n\
+         ____________________________________\
         ");
-	printf("\n\
-	 Program to Use Different Data Types.\
-        "); //Program's name
-	printf("\n\
-	 ____________________________________\n\
+        printf("\n\
+         Program to Use Different Data Types.\
+        "); 
+        printf("\n\
+         ____________________________________\n\
         ");
-
-	int   a=7,\
-	      b=9,\
-	      c=11,\
-	      d=13; //Declaration and Assignation(1)
-	float A=7.9,\
-	      B=9.11,\
-	      C=11.137,\
-	      D=13.7911; //Declaration and Assignation(2)
-	char x='P',\
+        
+        //Declaration and Assignation(1)
+        int   a=7,\
+              b=9,\
+              c=11,\
+              d=13;
+        //Declaration and Assignation(2)
+        float A=7.9,\
+              B=9.11,\
+              C=11.137,\
+              D=13.7911; 
+        //Declaration and Assignation(3)
+        char x='P',\
              y='P',\
-             z='S'; //Declaration and Assignation(3)
-
-	printf("\n\
-         Display Integers:         %i\n\
-				   %i\n\
-				   %i\n\
-				   %i\n\
-	",a, b, c, d); //Printing(1)
-
+             z='S'; 
+                                     
+        //Printing(1)
         printf("\n\
-	 Display Floating Values:  %.1f\n\
-				   %.2f\n\
-				   %.3f\n\
-				   %.4f\n\
-	",A, B, C, D); //Printing(2)
-
+         Display Integers:         %i, %i, %i, %i\n\
+        ",a, b, c, d); 
+        
+        //Printing(2)
         printf("\n\
-	 Display characters:       %c%c%c\n\
-	",x, y, z); //Printing(3)
-
+         Display Floating Values : %.1f\n\
+                                   %.2f\n\
+                                   %.3f\n\
+                                   %.4f\n\
+        ",A, B, C, D); 
+        
+        //Printing(3)
         printf("\n\
-	 ____________________________________\n\n\
-        ");
-
-        return 0; //Termination
-
+         Display characters :      %c%c%c\n\
+        ",x, y, z); 
+        
+        printf("\n\
+         ________________________________________\n\n\
+        ");  
+        
+        //Termination
+        return 0; 
+      
 }
+
+
+
+
+
+
+
+
 
 ```
 
@@ -103,38 +124,38 @@ xmake
 xmake run
 
 
+         ________________________________________
+        
          ME-A1
          Roll No. 2030015
-         Ashish Sehgal
+         Ashish Sehgal        
+         ____________________________________        
+         Program to Use Different Data Types.        
+         ____________________________________
         
-	 ____________________________________        
-	 Program to Use Different Data Types.        
-	 ____________________________________
+         Display Integers:         7, 9, 11, 13
         
-         Display Integers:         7
-				   9
-				   11
-				   13
-	
-	 Display Floating Values:  7.9
-				   9.11
-				   11.137
-				   13.7911
-	
-	 Display characters:       PPS
-	
-	 ____________________________________
+         Display Floating Values : 7.9
+                                   9.11
+                                   11.137
+                                   13.7911
+        
+         Display characters :      PPS
+        
+         ________________________________________
 
         
 ```
 
 ### Known Bugs and/or Errors:
 
-No Bugs and/or Errors found.
+List all the known limitations / bugs and / or errors of your program.
+
+After extensively testing your program, you should be aware of (nearly) every issue it has. How does your program handle bad input? How does your program handle edge cases? This section is a space for full-disclosure; what's wrong with your program?
 
 ### Lessons Learned:
 
-1. Use of format specifiers.       
-1. Display of different data types by their categories (i.e. Primary, Userdefined and Derived), then their related data types as their subs.
-1. First, Declare and assign the values then prinf() to print these values using different data types.
-1. Use of different format specifiers with specified integral and decimal places.
+1. What went well
+1. What you would do differently next time
+1. How the exercise might be revised to make it clearer/more satisfying
+1. What the faculty members might have done differently to promote learning
